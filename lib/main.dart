@@ -18,10 +18,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Image(
-                image: NetworkImage(
-                    'https://pbs.twimg.com/profile_images/1492369685136146434/rAHrmUXr_400x400.jpg'),
-              ),
+              Image(image: AssetImage('images/logo.png')),
               Text('Hello World'),
             ],
           ),
